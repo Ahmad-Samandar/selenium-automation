@@ -1,0 +1,217 @@
+2024-11-01 14:50:17 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 14:50:37 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 14:53:10 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 14:53:12 INFO  BaseTest:22 - Test started with URL: https://www.google.com
+2024-11-01 14:53:12 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 14:53:12 INFO  BaseTest:29 - Driver quit after test completion.
+2024-11-01 14:53:45 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 14:53:47 INFO  BaseTest:22 - Test started with URL: https://www.google.com
+2024-11-01 14:53:47 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 14:53:47 INFO  BaseTest:29 - Driver quit after test completion.
+2024-11-01 14:54:06 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 14:54:07 INFO  BaseTest:22 - Test started with URL: https://www.google.com
+2024-11-01 14:54:07 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 14:54:07 INFO  BaseTest:29 - Driver quit after test completion.
+2024-11-01 14:58:59 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 14:59:01 INFO  BaseTest:26 - Test started with URL: https://www.google.com
+2024-11-01 14:59:01 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 14:59:02 INFO  BaseTest:33 - Driver quit after test completion.
+2024-11-01 14:59:19 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 14:59:21 INFO  BaseTest:26 - Test started with URL: https://www.google.com
+2024-11-01 14:59:21 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 14:59:21 INFO  BaseTest:33 - Driver quit after test completion.
+2024-11-01 15:00:08 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 15:00:11 INFO  BaseTest:26 - Test started with URL: https://www.google.com
+2024-11-01 15:00:11 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:00:11 INFO  BaseTest:33 - Driver quit after test completion.
+2024-11-01 15:03:48 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 15:03:49 INFO  BaseTest:26 - Test started with URL: https://www.google.com
+2024-11-01 15:03:49 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:03:50 INFO  BaseTest:33 - Driver quit after test completion.
+2024-11-01 15:03:58 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 15:04:00 INFO  BaseTest:26 - Test started with URL: https://www.google.com
+2024-11-01 15:04:00 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:04:00 INFO  BaseTest:33 - Driver quit after test completion.
+2024-11-01 15:10:47 INFO  ConfigManager:22 - Configuration loaded for environment: dev
+2024-11-01 15:10:49 INFO  BaseTest:25 - Test started with URL: https://www.google.com
+2024-11-01 15:10:49 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:10:49 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:17:44 INFO  ConfigManager:22 - Configuration loaded for environment: test
+2024-11-01 15:17:46 INFO  BaseTest:25 - Test started with URL: https://www.facebook.com
+2024-11-01 15:17:46 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:17:46 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:22:57 INFO  ConfigManager:22 - Configuration loaded for environment: test
+2024-11-01 15:22:59 INFO  BaseTest:25 - Test started with URL: https://www.facebook.com
+2024-11-01 15:22:59 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:22:59 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:23:08 INFO  ConfigManager:22 - Configuration loaded for environment: test
+2024-11-01 15:23:10 INFO  BaseTest:25 - Test started with URL: https://www.facebook.com
+2024-11-01 15:23:10 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:23:10 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:29:42 INFO  ConfigManager:40 - Configuration loaded for environment: TEST
+2024-11-01 15:29:44 INFO  BaseTest:25 - Test started with URL: https://www.facebook.com
+2024-11-01 15:29:44 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:29:44 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:29:51 INFO  ConfigManager:40 - Configuration loaded for environment: TEST
+2024-11-01 15:29:52 INFO  BaseTest:25 - Test started with URL: https://www.facebook.com
+2024-11-01 15:29:52 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-01 15:29:52 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:52:01 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 15:52:03 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 15:52:03 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 15:52:03 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:58:42 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 15:58:44 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 15:58:44 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 15:58:44 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:59:36 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 15:59:37 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 15:59:37 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 15:59:37 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 15:59:57 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 15:59:59 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 15:59:59 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 15:59:59 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:04:33 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 16:04:35 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:04:35 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:04:35 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:06:38 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 16:06:40 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:06:40 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:06:40 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:09:43 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 16:09:44 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:09:44 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:09:45 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:10:12 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 16:10:14 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:10:14 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:10:14 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:10:23 INFO  ConfigManager:40 - Configuration loaded for environment: DEV
+2024-11-01 16:10:24 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:10:25 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:10:25 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:12:21 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:12:22 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:12:22 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:12:22 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:12:34 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:12:34 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:12:35 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:12:35 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:13:22 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:13:23 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:13:23 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:13:23 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:13:44 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:13:45 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:13:45 INFO  BaseTest:25 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:13:45 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:26:40 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:26:42 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:26:42 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:27:14 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:27:15 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:27:15 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:28:09 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:28:11 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:28:11 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:30:45 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:30:46 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:30:46 INFO  BaseTest:24 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:30:46 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:31:37 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:31:39 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:31:39 INFO  BaseTest:24 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:31:39 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:32:50 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:32:51 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:32:51 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:33:39 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:33:41 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:33:41 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:34:07 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:34:08 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:34:14 INFO  BaseTest:29 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:34:15 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:34:25 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:34:26 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:34:32 INFO  BaseTest:29 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:34:32 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:35:02 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:35:03 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:35:04 INFO  BaseTest:29 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:35:04 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:47:03 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:47:05 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:47:05 INFO  BaseTest:24 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:47:05 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:48:34 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:48:36 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:48:42 INFO  BaseTest:29 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:48:42 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:56:28 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:56:30 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:56:36 INFO  BaseTest:29 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:56:36 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 16:56:49 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 16:56:51 INFO  BaseTest:25 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 16:56:51 INFO  BaseTest:29 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 16:56:51 INFO  BaseTest:32 - Driver quit after test completion.
+2024-11-01 17:31:26 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 17:31:28 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 17:31:34 INFO  BaseTest:28 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 17:31:34 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-01 17:31:54 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 17:31:56 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 17:31:56 INFO  BaseTest:28 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 17:31:56 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-01 17:32:16 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 17:32:18 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 17:32:18 INFO  BaseTest:28 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 17:32:18 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-01 17:47:08 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 17:47:09 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 17:47:09 INFO  BaseTest:28 - Successfully clicked the Sign In button and navigated to the login page.
+2024-11-01 17:47:09 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-01 17:59:29 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:00:10 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:03:13 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:03:14 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:09:13 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:09:14 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:10:12 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:10:13 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:10:31 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:10:32 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:14:56 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:14:57 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:14:58 INFO  BaseTest:44 - Successfully clicked the Sign In button.
+2024-11-01 18:14:58 INFO  BaseTest:55 - User was successfully redirected to the login page.
+2024-11-01 18:19:24 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:19:25 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:19:25 INFO  BaseTest:44 - Successfully clicked the Sign In button.
+2024-11-01 18:19:25 INFO  BaseTest:55 - User was successfully redirected to the login page.
+2024-11-01 18:20:09 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:20:11 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:20:11 INFO  BaseTest:44 - Successfully clicked the Sign In button.
+2024-11-01 18:20:11 INFO  BaseTest:55 - User was successfully redirected to the login page.
+2024-11-01 18:20:39 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:20:40 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:20:45 INFO  BaseTest:44 - Successfully clicked the Sign In button.
+2024-11-01 18:20:45 INFO  BaseTest:55 - User was successfully redirected to the login page.
+2024-11-01 18:21:48 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:21:50 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:21:50 INFO  BaseTest:44 - Successfully clicked the Sign In button.
+2024-11-01 18:21:50 INFO  BaseTest:55 - User was successfully redirected to the login page.
+2024-11-01 18:23:58 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:23:59 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:24:00 INFO  BaseTest:45 - Successfully clicked the Sign In button.
+2024-11-01 18:24:00 INFO  BaseTest:56 - User was successfully redirected to the login page.
+2024-11-01 18:24:00 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-01 18:24:18 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-01 18:24:19 INFO  BaseTest:23 - Test started with URL: https://tek-retail-ui.azurewebsites.net/
+2024-11-01 18:24:23 INFO  BaseTest:45 - Successfully clicked the Sign In button.
+2024-11-01 18:24:23 INFO  BaseTest:56 - User was successfully redirected to the login page.
+2024-11-01 18:24:24 INFO  BaseTest:30 - Driver quit after test completion.
