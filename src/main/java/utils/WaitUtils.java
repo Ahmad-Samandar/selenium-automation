@@ -1,7 +1,10 @@
 package utils;
 
 import config.ConfigManager;
+import config.Configuration;
 import enums.WaitStrategy;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,31 +17,28 @@ import java.time.Duration;
  * WaitUtils provides utility methods to wait for elements based on different strategies.
  */
 public class WaitUtils {
+    private static final Logger logger = LogManager.getLogger(WaitUtils.class);
 
-    /**
-     * Retrieves the timeout duration from config properties, with a default value of 10 seconds if not set.
-     * @return Duration based on timeout property.
-     */
-    private static Duration getTimeout() {
-        String timeoutValue = ConfigManager.getProperty("timeout");
-        int timeoutInSeconds = (timeoutValue != null) ? Integer.parseInt(timeoutValue) : 10;
-        return Duration.ofSeconds(timeoutInSeconds);
-    }
+    // Cache configuration values to avoid repeated lookups
+    private static final Configuration config = ConfigManager.getConfiguration();
+    private static final Duration TIMEOUT = Duration.ofSeconds(config.getTimeout());
+    private static final boolean ENABLE_WAIT = config.isEnableWait();
+    private static final int WAIT_IN_SECONDS = config.getWaitInSeconds();
 
     /**
      * Applies a fixed delay if global wait is enabled in the config.
      */
     public static void applyGlobalWait() {
-        boolean enableWait = Boolean.parseBoolean(ConfigManager.getProperty("enableWait"));
-        int waitInSeconds = Integer.parseInt(ConfigManager.getProperty("waitInSeconds", "0"));
-        System.out.println("Is wait enabled: " + enableWait);
-        System.out.println("Wait in seconds: " + waitInSeconds);
-        if (enableWait && waitInSeconds > 0) {
+        logger.debug("Global Wait Enabled: {}", ENABLE_WAIT);
+        logger.debug("Global Wait Duration: {} seconds", WAIT_IN_SECONDS);
+
+        if (ENABLE_WAIT && WAIT_IN_SECONDS > 0) {
             try {
-                Thread.sleep(waitInSeconds * 1000L);
+                Thread.sleep(WAIT_IN_SECONDS * 1000L);
+                logger.debug("Applied global wait of {} seconds.", WAIT_IN_SECONDS);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
-                System.err.println("Global wait interrupted: " + e.getMessage());
+                logger.warn("Global wait interrupted: {}", e.getMessage());
             }
         }
     }
@@ -51,15 +51,18 @@ public class WaitUtils {
      * @return The WebElement after applying the wait.
      */
     public static WebElement applyWait(WebDriver driver, WebElement element, WaitStrategy strategy) {
-        WebDriverWait wait = new WebDriverWait(driver, getTimeout());
+        WebDriverWait wait = new WebDriverWait(driver, TIMEOUT);
 
         switch (strategy) {
             case CLICKABLE:
+                logger.debug("Waiting for element to be clickable.");
                 return wait.until(ExpectedConditions.elementToBeClickable(element));
             case VISIBLE:
+                logger.debug("Waiting for element to be visible.");
                 return wait.until(ExpectedConditions.visibilityOf(element));
             case NONE:
             default:
+                logger.debug("No explicit wait applied.");
                 return element;
         }
     }
@@ -71,7 +74,8 @@ public class WaitUtils {
      * @return The WebElement after it is present in the DOM.
      */
     public static WebElement waitForPresence(WebDriver driver, By locator) {
-        WebDriverWait wait = new WebDriverWait(driver, getTimeout());
+        logger.debug("Waiting for presence of element located by: {}", locator);
+        WebDriverWait wait = new WebDriverWait(driver, TIMEOUT);
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 }

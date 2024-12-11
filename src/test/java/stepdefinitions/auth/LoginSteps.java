@@ -19,14 +19,11 @@ public class LoginSteps extends BaseTest {
 
     @Before
     public void setUpDriver() {
-        setUp();
         homePageActions = new HomePageActions(driver);
     }
 
     @Given("the user is on the home page")
-    public void theUserIsOnTheHomePage() {
-        driver.get(ConfigManager.getProperty("baseUrl"));
-    }
+    public void theUserIsOnTheHomePage() {}
 
     @When("the user clicks on the Sign In button")
     public void theUserClicksOnTheSignInButton() {

@@ -283,3 +283,9 @@
 2024-12-10 20:58:05 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
 2024-12-10 20:58:05 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
 2024-12-10 20:58:05 INFO  BaseTest:30 - Driver quit after test completion.
+2024-12-11 11:17:04 INFO  ConfigManager:57 - Configuration loaded for environment: DEV
+2024-12-11 11:17:04 INFO  DriverFactory:39 - Initializing WebDriver for browser: CHROME, Headless: false
+2024-12-11 11:17:06 INFO  BaseTest:30 - Test started with URL: https://www.facebook.com/
+2024-12-11 11:17:06 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-11 11:17:06 INFO  DriverFactory:93 - WebDriver instance quit successfully.
+2024-12-11 11:17:06 INFO  BaseTest:37 - Driver quit after test completion.
