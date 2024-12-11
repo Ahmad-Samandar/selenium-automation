@@ -15,16 +15,25 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * with optional headless mode based on configuration.
  */
 public class DriverFactory {
-    private static WebDriver driver;
+    private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
+    public static WebDriver getDriver() {
+        if ( driver.get() == null ) {
+            initializeDriver();
+        }
+        return driver.get();
+    }
 
     /**
      * Initializes the WebDriver based on the specified Browser enum and headless mode setting.
      * @return WebDriver instance
      */
-    public static WebDriver initializeDriver() {
+    public static void initializeDriver() {
         Browser browser = Browser.valueOf(ConfigManager.getProperty("browser").toUpperCase());
         boolean isHeadless = Boolean.parseBoolean(ConfigManager.getProperty("headless"));
         System.out.println("Headless mode: " + isHeadless);
+
+        WebDriver driver;
 
         switch (browser) {
             case CHROME:
@@ -59,15 +68,15 @@ public class DriverFactory {
         }
 
         driver.manage().window().maximize();
-        return driver;
     }
 
     /**
      * Quits the WebDriver instance.
      */
     public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
+        if (driver.get() != null) {
+            driver.get().quit();
+            driver.remove();
         }
     }
 }

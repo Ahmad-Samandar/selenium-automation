@@ -215,3 +215,71 @@
 2024-11-01 18:24:23 INFO  BaseTest:45 - Successfully clicked the Sign In button.
 2024-11-01 18:24:23 INFO  BaseTest:56 - User was successfully redirected to the login page.
 2024-11-01 18:24:24 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-18 11:54:16 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-18 11:54:36 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-18 11:55:24 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-18 11:55:56 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-18 11:57:44 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-18 11:57:46 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-11-18 11:57:46 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-11-18 11:57:46 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-25 18:17:51 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-11-25 18:17:54 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-11-25 18:17:55 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-25 18:17:56 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-11-25 18:17:56 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-25 18:17:57 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-11-25 18:17:57 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-25 18:17:58 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-11-25 18:17:59 INFO  BaseTest:30 - Driver quit after test completion.
+2024-11-25 18:18:00 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-11-25 18:18:00 INFO  BaseTest:30 - Driver quit after test completion.
+2024-12-04 17:40:34 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-04 17:41:46 INFO  ConfigManager:42 - Configuration loaded for environment: DEV
+2024-12-04 17:41:46 INFO  ConfigManager:42 - Configuration loaded for environment: DEV
+2024-12-10 20:44:42 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:45:54 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:47:19 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:47:21 INFO  BaseTest:23 - Test started with URL: htts://www.facebook.com/
+2024-12-10 20:47:21 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:47:21 INFO  BaseTest:30 - Driver quit after test completion.
+2024-12-10 20:49:47 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:49:49 INFO  BaseTest:23 - Test started with URL: htts://www.facebook.com/
+2024-12-10 20:49:49 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:49:49 INFO  BaseTest:31 - Driver quit after test completion.
+2024-12-10 20:50:07 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:50:08 INFO  BaseTest:23 - Test started with URL: htts://www.facebook.com/
+2024-12-10 20:50:08 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:50:08 INFO  BaseTest:31 - Driver quit after test completion.
+2024-12-10 20:51:32 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:51:33 INFO  BaseTest:23 - Test started with URL: htts://www.facebook.com/
+2024-12-10 20:51:33 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:51:33 INFO  BaseTest:31 - Driver quit after test completion.
+2024-12-10 20:51:52 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:51:53 INFO  BaseTest:23 - Test started with URL: htts://www.facebook.com/
+2024-12-10 20:51:53 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:51:53 INFO  BaseTest:31 - Driver quit after test completion.
+2024-12-10 20:52:01 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:52:02 INFO  BaseTest:23 - Test started with URL: htts://www.facebook.com/
+2024-12-10 20:52:02 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:52:02 INFO  BaseTest:31 - Driver quit after test completion.
+2024-12-10 20:53:03 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:53:06 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-12-10 20:53:06 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:53:06 INFO  BaseTest:30 - Driver quit after test completion.
+2024-12-10 20:53:43 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:53:45 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-12-10 20:53:45 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:53:45 INFO  BaseTest:31 - Driver quit after test completion.
+2024-12-10 20:54:14 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:54:16 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-12-10 20:54:16 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:54:16 INFO  BaseTest:31 - Driver quit after test completion.
+2024-12-10 20:54:26 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:54:27 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-12-10 20:54:27 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:54:27 INFO  BaseTest:31 - Driver quit after test completion.
+2024-12-10 20:58:03 INFO  ConfigManager:39 - Configuration loaded for environment: DEV
+2024-12-10 20:58:05 INFO  BaseTest:23 - Test started with URL: https://www.facebook.com/
+2024-12-10 20:58:05 INFO  BaseTest:18 - Verifying the browser launched and navigated to the correct URL.
+2024-12-10 20:58:05 INFO  BaseTest:30 - Driver quit after test completion.

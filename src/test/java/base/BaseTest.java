@@ -13,12 +13,12 @@ import org.apache.logging.log4j.Logger;
  */
 public class BaseTest {
 
-    protected WebDriver driver;
+    public WebDriver driver;
     protected static final Logger logger = LogManager.getLogger(BaseTest.class);
 
     @BeforeMethod
     public void setUp() {
-        driver = DriverFactory.initializeDriver();
+        driver = DriverFactory.getDriver();
         driver.get(ConfigManager.getProperty("baseUrl"));
         logger.info("Test started with URL: {}", ConfigManager.getProperty("baseUrl"));
     }
