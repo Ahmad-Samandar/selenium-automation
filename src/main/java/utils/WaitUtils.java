@@ -67,15 +67,15 @@ public class WaitUtils {
         }
     }
 
-    /**
-     * Waits for a locator based on the PRESENCE strategy.
-     * @param driver The WebDriver instance.
-     * @param locator The By locator to wait for.
-     * @return The WebElement after it is present in the DOM.
-     */
-    public static WebElement waitForPresence(WebDriver driver, By locator) {
-        logger.debug("Waiting for presence of element located by: {}", locator);
-        WebDriverWait wait = new WebDriverWait(driver, TIMEOUT);
-        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
-    }
+//    /**
+//     * Waits for a locator based on the PRESENCE strategy.
+//     * @param driver The WebDriver instance.
+//     * @param locator The By locator to wait for.
+//     * @return The WebElement after it is present in the DOM.
+//     */
+//    public static WebElement waitForPresence(WebDriver driver, By locator) {
+//        logger.debug("Waiting for presence of element located by: {}", locator);
+//        WebDriverWait wait = new WebDriverWait(driver, TIMEOUT);
+//        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+//    }
 }
