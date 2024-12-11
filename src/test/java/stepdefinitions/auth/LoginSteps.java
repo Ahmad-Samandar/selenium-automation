@@ -2,7 +2,6 @@ package stepdefinitions.auth;
 
 import actions.home.HomePageActions;
 import base.BaseTest;
-import config.ConfigManager;
 import constants.ApplicationConstants;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
